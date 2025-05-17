@@ -1,0 +1,1208 @@
+2025-05-13 12:29:03,735 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 видосики
+2025-05-13 12:29:03,739 | INFO | study_tracker | Добавлены часы: 1 | Категория: видосики | ID: 1082648849
+2025-05-13 12:36:44,037 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 12:36:44,057 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 12:41:54,049 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-13 12:42:13,884 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-13 12:42:13,898 | INFO | study_tracker | /setremind сработала верно, у пользователя 1082648849 установлено напоминание на 12:43
+2025-05-13 12:43:48,562 | INFO | study_tracker | Напоминание отправлено пользователю 1082648849
+2025-05-13 12:44:50,943 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-13 12:47:59,230 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-13 12:47:59,232 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-13 12:48:08,404 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-13 12:48:08,405 | WARNING | study_tracker | Неправильный формат команды от 1082648849: /add
+2025-05-13 12:55:30,279 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-13 12:56:21,931 | INFO | study_tracker | /add вызвана от пользователя 1082648849
+2025-05-13 12:56:41,645 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 13:09:18,711 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-13 13:09:18,734 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-13 13:09:42,020 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-13 13:09:42,026 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-13 13:09:50,929 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 13:09:50,933 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 13:13:10,174 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 13:21:50,401 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 13:43:04,660 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-13 13:43:04,661 | ERROR | study_tracker | Неправильный формат команды /add от 1082648849: /add
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 12, in add
+    colvo_chasov = text[1]
+                   ~~~~^^^
+IndexError: list index out of range
+2025-05-13 14:23:00,585 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:23:37,110 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:24:11,016 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:24:11,504 | ERROR | study_tracker | В базе данных rassilka произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:25:22,324 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:25:22,722 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:25:56,735 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:25:57,282 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:26:16,329 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:26:16,918 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:29:44,859 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:30:33,079 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:30:33,847 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:32:35,726 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:32:36,121 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:33:48,945 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:33:49,441 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:34:13,344 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:34:13,896 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:34:47,408 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:34:47,862 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:35:13,569 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:35:13,933 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:37:24,895 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:37:25,345 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:38:22,541 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:38:22,945 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:39:11,049 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-13 14:39:11,897 | INFO | study_tracker | /stats отработала успешно пользователем 1082648849
+2025-05-13 14:39:55,852 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-13 14:39:56,464 | INFO | study_tracker | /stats отработала успешно пользователем 1082648849
+2025-05-13 14:40:16,464 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:40:16,636 | ERROR | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'xyi')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 14:43:24,004 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:43:41,938 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 14:45:36,048 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 16:29:19,032 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-13 17:09:06,823 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:09:06,824 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 17:09:27,821 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-13 17:09:27,822 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-13 17:24:30,466 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:24:30,466 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 17:24:30,760 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,917 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,920 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,923 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,925 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,926 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,928 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,930 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,931 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,932 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,933 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:33:39,933 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:33:39,933 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 17:51:43,473 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:51:43,474 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 17:52:08,472 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-13 17:52:08,473 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-13 17:58:22,417 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,427 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,430 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,431 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,432 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,433 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,433 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,434 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,434 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,435 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:58:22,436 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:58:22,436 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 17:58:42,015 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 5 тгбот
+2025-05-13 17:58:42,024 | INFO | study_tracker | Добавлены часы: 5 | Категория: тгбот | ID: 1082648849
+2025-05-13 17:58:42,608 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: 'int' object has no attribute 'chat'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/utils/achievements.py", line 31, in check_first_step
+    total_bet = users.check_zapisi(mess.chat.id)
+                                   ^^^^^^^^^
+AttributeError: 'int' object has no attribute 'chat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 20, in add
+    check_first_step(bot, mess.chat.id, 'first_step', users)
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/utils/achievements.py", line 37, in check_first_step
+    logger.error(f'Произошла ошибка в проверке достижения first_step у пользователя {mess.chat.id}: {e}')
+                                                                                     ^^^^^^^^^
+AttributeError: 'int' object has no attribute 'chat'
+2025-05-13 17:59:50,946 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,947 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,947 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,948 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,948 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,949 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,950 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,950 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,950 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,951 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 17:59:50,951 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 17:59:50,951 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 18:00:01,524 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 3 тгбот
+2025-05-13 18:00:01,538 | INFO | study_tracker | Добавлены часы: 3 | Категория: тгбот | ID: 1082648849
+2025-05-13 18:00:02,099 | ERROR | study_tracker | Произошла ошибка в проверке достижения first_step у пользователя 1082648849: 'str' object has no attribute 'check_achieve'
+2025-05-13 18:01:07,065 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,071 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,072 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,073 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,073 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,074 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,074 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,074 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,075 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,075 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:01:07,075 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 18:01:07,075 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 18:01:20,791 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 2 тгбот
+2025-05-13 18:01:20,807 | INFO | study_tracker | Добавлены часы: 2 | Категория: тгбот | ID: 1082648849
+2025-05-13 18:01:21,083 | ERROR | study_tracker | Произошла ошибка в проверке достижения first_step у пользователя 1082648849: 'Logger' object has no attribute 'сritical'
+2025-05-13 18:03:26,006 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,007 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,007 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,008 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,008 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,009 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,010 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,011 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,011 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,011 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:03:26,011 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 18:03:26,011 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 18:03:34,604 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 2 тгбот
+2025-05-13 18:03:34,611 | INFO | study_tracker | Добавлены часы: 2 | Категория: тгбот | ID: 1082648849
+2025-05-13 18:03:35,109 | CRITICAL | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'first_step')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 18:03:35,113 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-13 18:06:43,539 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:06:43,585 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:11:25,168 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:11:25,172 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:11:25,427 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:11:25,428 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:15:48,620 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 18:15:48,620 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 18:23:55,927 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,929 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,930 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,932 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,933 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,934 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,934 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,935 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,935 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,936 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-13 18:23:55,936 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-13 18:23:55,936 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-13 18:24:02,106 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:24:02,116 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:25:35,782 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:25:35,785 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:26:36,263 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:26:36,266 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:27:00,731 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:27:00,734 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:27:01,592 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+2025-05-13 18:27:20,109 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:27:20,118 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:27:20,991 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+2025-05-13 18:28:40,503 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:28:40,506 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:28:41,396 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse reply keyboard markup JSON object
+2025-05-13 18:29:48,757 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:29:48,764 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:30:32,388 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:30:32,394 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:30:47,270 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 3 тгбот
+2025-05-13 18:30:47,300 | INFO | study_tracker | Добавлены часы: 3 | Категория: тгбот | ID: 1082648849
+2025-05-13 18:30:47,581 | CRITICAL | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'first_step')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-13 18:30:47,584 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-13 18:30:50,971 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:30:50,973 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:30:51,731 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: 'str' object has no attribute 'strftime'
+2025-05-13 18:31:11,836 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:31:11,840 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:31:38,483 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:31:38,488 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:32:02,588 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:32:02,598 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:33:49,433 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:33:49,439 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:40:01,180 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:40:01,184 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:40:58,724 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:40:58,726 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:40:59,531 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: cannot access local variable 'norm_name' where it is not associated with a value
+2025-05-13 18:41:35,179 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:41:35,184 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:42:52,854 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:42:52,858 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:43:22,752 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:43:22,757 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:43:38,127 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:43:38,138 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:44:04,552 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:44:04,556 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:48:23,941 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:48:23,944 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-13 18:52:41,183 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-13 18:52:41,187 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:33:27,949 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,950 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,950 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,951 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,951 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,951 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,952 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,952 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,952 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,953 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:33:27,953 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:33:27,953 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:33:57,113 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-14 13:33:57,114 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-14 13:35:58,595 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,597 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,597 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,598 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,598 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,598 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,599 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,599 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,599 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,600 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:35:58,600 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:35:58,600 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:37:05,380 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,382 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,382 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,382 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,383 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,383 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,383 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,384 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,384 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,384 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:37:05,385 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:37:05,385 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:40:41,883 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,884 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,885 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,885 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,886 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,886 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,887 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,887 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,887 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,888 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:40:41,888 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:40:41,888 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:41:14,852 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 13:41:14,858 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 13:41:14,981 | CRITICAL | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'first_step')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-14 13:41:14,984 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-14 13:41:29,097 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:41:29,099 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:42:04,980 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-14 13:42:04,980 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-14 13:42:13,643 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 нетгбот
+2025-05-14 13:42:13,647 | INFO | study_tracker | Добавлены часы: 1 | Категория: нетгбот | ID: 1082648849
+2025-05-14 13:42:13,952 | CRITICAL | study_tracker | В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'first_step')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-14 13:42:13,953 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-14 13:45:39,869 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 нетгбот
+2025-05-14 13:45:39,895 | INFO | study_tracker | Добавлены часы: 1 | Категория: нетгбот | ID: 1082648849
+2025-05-14 13:45:40,494 | CRITICAL | study_tracker | (chechk_achieve)В базе данных achieve произошла ошибка: (sqlite3.OperationalError) no such table: achieve
+[SQL: SELECT achieve.user_id, achieve.user_telegram_id, achieve.achieve_code, achieve.achieved, achieve.description, achieve.date 
+FROM achieve 
+WHERE achieve.user_telegram_id = ? AND achieve.achieve_code = ?]
+[parameters: (1082648849, 'first_step')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-14 13:45:40,496 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-14 13:46:09,853 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 нетгбот
+2025-05-14 13:46:09,856 | INFO | study_tracker | Добавлены часы: 1 | Категория: нетгбот | ID: 1082648849
+2025-05-14 13:46:19,953 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:46:19,955 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:46:38,602 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,604 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,604 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,604 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,605 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,605 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,605 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,606 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,606 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,606 | WARNING | study_tracker | Записано одно и тоже достижение
+2025-05-14 13:46:38,607 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:46:38,607 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:48:09,358 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:48:09,358 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 13:48:24,845 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:48:24,848 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:55:37,464 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 100 тгбот
+2025-05-14 13:55:37,468 | INFO | study_tracker | Добавлены часы: 100 | Категория: тгбот | ID: 1082648849
+2025-05-14 13:55:47,294 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:55:47,296 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:56:32,495 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:56:32,515 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:56:56,435 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:56:56,442 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:57:21,601 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:57:21,607 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:58:00,824 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 13:58:00,831 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 13:58:35,423 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 13:58:35,424 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 14:01:40,389 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:01:40,393 | ERROR | study_tracker | Произошла ошибка в проверке достижения absolute у пользователя 1082648849: achieve.check_achieve() missing 1 required positional argument: 'active'
+2025-05-14 14:01:40,393 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:02:03,666 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:02:03,677 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение absolute
+2025-05-14 14:02:04,117 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:02:12,148 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:02:12,150 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:04:09,553 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:04:09,558 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:04:30,272 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 14:04:30,272 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 14:04:33,115 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:04:33,118 | ERROR | study_tracker | Произошла ошибка в проверке достижения absolute у пользователя 1082648849: achieve.change_status() takes 4 positional arguments but 5 were given
+2025-05-14 14:04:33,118 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:04:52,378 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 100 тгбот
+2025-05-14 14:04:52,385 | INFO | study_tracker | Добавлены часы: 100 | Категория: тгбот | ID: 1082648849
+2025-05-14 14:04:55,863 | ERROR | study_tracker | Произошла ошибка в проверке достижения first_step у пользователя 1082648849: achieve.change_status() got multiple values for argument 'date'
+2025-05-14 14:05:42,583 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 14:05:42,592 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 14:05:43,537 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-14 14:05:47,419 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:05:47,432 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение absolute
+2025-05-14 14:05:47,692 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:11:23,595 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 100 тгбот
+2025-05-14 14:11:24,152 | WARNING | study_tracker | Пользователь 1082648849 вписал больше 12 часов в команду /add
+2025-05-14 14:11:38,994 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 12 тгбот
+2025-05-14 14:11:39,000 | INFO | study_tracker | Добавлены часы: 12 | Категория: тгбот | ID: 1082648849
+2025-05-14 14:11:48,218 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:11:48,220 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:20:59,189 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 14:20:59,191 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 14:21:15,316 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 14:21:15,327 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 14:21:16,295 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение monday_achievement
+2025-05-14 14:21:20,692 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:21:20,697 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:38:06,778 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:38:06,782 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:39:20,356 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:39:20,362 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:42:42,926 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:42:42,933 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:45:38,947 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:45:38,954 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:49:47,779 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 14:49:47,785 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 14:52:12,063 | ERROR | study_tracker | Что-то пошло не так, при отображении достижений пользователя 1082648849: 'function' object has no attribute 'all_achieve'
+2025-05-14 15:24:40,128 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:24:40,129 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:25:56,099 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:25:56,099 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:28:42,347 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:28:42,347 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:29:04,865 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:29:04,866 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:29:05,220 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:29:05,220 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:29:10,898 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:29:10,898 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:29:49,177 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 15:29:49,184 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 15:30:09,185 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats
+2025-05-14 15:30:09,187 | WARNING | study_tracker | Неправильный формат команды /stats от 1082648849: /stats
+2025-05-14 15:30:16,147 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-14 15:30:16,723 | INFO | study_tracker | /stats отработала успешно пользователем 1082648849
+2025-05-14 15:30:32,710 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 15:30:32,715 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 15:34:33,194 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:34:33,194 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:34:54,261 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-14 15:35:04,476 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 15:35:04,476 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-14 15:35:28,593 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-14 15:35:28,601 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-14 15:35:48,068 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-14 15:35:48,486 | INFO | study_tracker | /stats отработала успешно пользователем 1082648849
+2025-05-14 15:35:53,310 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-14 15:35:53,315 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-14 15:35:58,762 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-14 15:35:58,764 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-14 15:36:14,784 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-14 15:36:14,791 | INFO | study_tracker | /setremind сработала верно, у пользователя 1082648849 установлено напоминание на 15:37
+2025-05-14 15:37:13,223 | INFO | study_tracker | Напоминание отправлено пользователю 1082648849
+2025-05-14 20:02:59,808 | INFO | study_tracker | Установленые первые достижения пользователя 477824877
+2025-05-14 20:02:59,809 | INFO | study_tracker | /start вызвана от пользователя 477824877
+2025-05-14 20:03:17,036 | INFO | study_tracker | /stats вызвана пользователем 477824877: /stats
+2025-05-14 20:03:17,038 | WARNING | study_tracker | Неправильный формат команды /stats от 477824877: /stats
+2025-05-14 20:03:21,621 | INFO | study_tracker | /stats вызвана пользователем 477824877: /stats
+2025-05-14 20:03:21,622 | WARNING | study_tracker | Неправильный формат команды /stats от 477824877: /stats
+2025-05-14 20:03:28,319 | INFO | study_tracker | /profile вызвана пользователем 477824877
+2025-05-14 20:03:28,326 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-14 20:03:41,082 | INFO | study_tracker | /help вызвана от пользователя 477824877
+2025-05-14 20:03:50,893 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add
+2025-05-14 20:03:50,894 | WARNING | study_tracker | Неправильный формат команды /add от 477824877: /add
+2025-05-14 20:04:01,291 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 4 matematika
+2025-05-14 20:04:01,300 | INFO | study_tracker | Добавлены часы: 4 | Категория: matematika | ID: 477824877
+2025-05-14 20:04:05,278 | INFO | study_tracker | /stats вызвана пользователем 477824877: /stats
+2025-05-14 20:04:05,279 | WARNING | study_tracker | Неправильный формат команды /stats от 477824877: /stats
+2025-05-14 20:04:14,560 | INFO | study_tracker | /stats вызвана пользователем 477824877: /stats matematika
+2025-05-14 20:04:15,398 | INFO | study_tracker | /stats отработала успешно пользователем 477824877
+2025-05-14 20:04:41,934 | INFO | study_tracker | /profile вызвана пользователем 477824877
+2025-05-14 20:04:41,945 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 477824877
+2025-05-14 20:05:09,641 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 4 matematika
+2025-05-14 20:05:09,646 | INFO | study_tracker | Добавлены часы: 4 | Категория: matematika | ID: 477824877
+2025-05-14 20:05:41,409 | INFO | study_tracker | Установленые первые достижения пользователя 477824877
+2025-05-14 20:05:41,409 | INFO | study_tracker | /start вызвана от пользователя 477824877
+2025-05-14 20:06:35,683 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 143 literatura
+2025-05-14 20:06:36,190 | WARNING | study_tracker | Пользователь 477824877 вписал больше 12 часов в команду /add
+2025-05-14 20:06:53,066 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 11 literatura
+2025-05-14 20:06:53,073 | INFO | study_tracker | Добавлены часы: 11 | Категория: literatura | ID: 477824877
+2025-05-14 20:07:28,440 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 5 literatura
+2025-05-14 20:07:28,445 | INFO | study_tracker | Добавлены часы: 5 | Категория: literatura | ID: 477824877
+2025-05-14 20:07:28,455 | INFO | study_tracker | Установленые первые достижения пользователя 477824877
+2025-05-14 20:07:28,455 | INFO | study_tracker | /start вызвана от пользователя 477824877
+2025-05-14 20:07:29,139 | INFO | study_tracker | Пользователь 477824877 разблокировал достижение first_step
+2025-05-14 20:07:58,558 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 12 literatura
+2025-05-14 20:07:58,562 | INFO | study_tracker | Добавлены часы: 12 | Категория: literatura | ID: 477824877
+2025-05-14 20:08:09,868 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 12 literatura
+2025-05-14 20:08:09,878 | INFO | study_tracker | Добавлены часы: 12 | Категория: literatura | ID: 477824877
+2025-05-14 20:08:12,611 | INFO | study_tracker | /profile вызвана пользователем 477824877
+2025-05-14 20:08:12,612 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 477824877
+2025-05-14 20:08:49,496 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 1 literatura
+2025-05-14 20:08:49,510 | INFO | study_tracker | Добавлены часы: 1 | Категория: literatura | ID: 477824877
+2025-05-14 20:08:52,608 | INFO | study_tracker | /profile вызвана пользователем 477824877
+2025-05-14 20:08:52,611 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 477824877
+2025-05-14 20:09:34,971 | INFO | study_tracker | /add вызвана пользователем 477824877 с текстом: /add 1 literatura
+2025-05-14 20:09:34,978 | INFO | study_tracker | Добавлены часы: 1 | Категория: literatura | ID: 477824877
+2025-05-14 20:09:35,492 | INFO | study_tracker | Пользователь 477824877 разблокировал достижение monday_achievement
+2025-05-14 20:10:00,365 | INFO | study_tracker | /profile вызвана пользователем 477824877
+2025-05-14 20:10:00,373 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 477824877
+2025-05-14 20:10:36,309 | INFO | study_tracker | /setremind вызвана пользователем 477824877
+2025-05-14 20:10:36,311 | WARNING | study_tracker | Неправильно введена команда пользователем 477824877: /setremind
+2025-05-14 20:10:47,566 | INFO | study_tracker | /setremind вызвана пользователем 477824877
+2025-05-14 20:10:47,587 | INFO | study_tracker | /setremind сработала верно, у пользователя 477824877 установлено напоминание на 20:11
+2025-05-14 20:11:35,502 | INFO | study_tracker | Напоминание отправлено пользователю 477824877
+2025-05-14 20:17:11,989 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-14 20:17:11,989 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:45:15,225 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:45:15,226 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:45:21,392 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 13:45:21,398 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-15 13:47:27,148 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 13:47:27,156 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-15 13:49:19,734 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 13:49:19,742 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-15 13:55:13,312 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:55:13,313 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:55:49,897 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:55:49,898 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:56:26,981 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:56:26,982 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:56:38,426 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 13:56:38,447 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 13:56:52,124 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 13:56:52,126 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 13:56:57,861 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:56:57,862 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:57:13,305 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 13:57:13,314 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 13:58:16,674 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 13:58:16,675 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 13:58:40,359 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 13:58:40,365 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 13:59:56,622 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 13:59:56,625 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:00:18,151 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 14:00:18,158 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:00:36,569 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 14:00:36,572 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:01:22,908 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 14:01:22,908 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 14:01:33,466 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 тгбот
+2025-05-15 14:01:33,478 | INFO | study_tracker | Добавлены часы: 1 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:01:33,606 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-15 14:02:07,018 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 14:02:07,018 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 14:02:11,897 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 14:02:11,899 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 14:02:21,833 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 Математика
+2025-05-15 14:02:21,854 | INFO | study_tracker | Добавлены часы: 10 | Категория: Математика | ID: 1082648849
+2025-05-15 14:02:28,243 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 14:02:28,244 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 14:03:44,528 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 математика
+2025-05-15 14:03:44,539 | INFO | study_tracker | Добавлены часы: 10 | Категория: математика | ID: 1082648849
+2025-05-15 14:03:47,574 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 14:03:47,577 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 14:04:00,163 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 Математика
+2025-05-15 14:04:00,173 | INFO | study_tracker | Добавлены часы: 10 | Категория: математика | ID: 1082648849
+2025-05-15 14:04:06,383 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 14:04:06,385 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 14:04:32,076 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-15 14:04:32,079 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-15 14:04:39,865 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 3 ТГБОТ
+2025-05-15 14:04:39,874 | INFO | study_tracker | Добавлены часы: 3 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:04:57,061 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 12 ТгБоТ
+2025-05-15 14:04:57,068 | INFO | study_tracker | Добавлены часы: 12 | Категория: тгбот | ID: 1082648849
+2025-05-15 14:05:01,429 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 14:05:01,432 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 14:28:50,979 | INFO | study_tracker | Резервная копия базы создана: users_backup_20250515_142850.db
+2025-05-15 14:28:51,360 | INFO | study_tracker | Резервная копия базы создана: achieve_backup_20250515_142851.db
+2025-05-15 14:42:55,973 | INFO | study_tracker | Рассылка с текстом попа пришла успешно
+2025-05-15 14:43:13,937 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 1 хуй
+2025-05-15 14:43:13,947 | INFO | study_tracker | Добавлены часы: 1 | Категория: хуй | ID: 8136591146
+2025-05-15 14:43:26,342 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-15 14:43:26,342 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-15 14:43:30,584 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 1 хуй
+2025-05-15 14:43:30,589 | INFO | study_tracker | Добавлены часы: 1 | Категория: хуй | ID: 8136591146
+2025-05-15 14:43:53,097 | INFO | study_tracker | Рассылка с текстом попа пришла успешно
+2025-05-15 14:50:18,211 | ERROR | study_tracker | Ошибка при отправке логов: [Errno 2] No such file or directory: 'bot.log'
+2025-05-15 14:50:18,212 | INFO | study_tracker | Логи успешно отправлены
+2025-05-15 14:51:30,943 | INFO | study_tracker | Логи успешно отправлены
+2025-05-15 14:52:07,026 | WARNING | study_tracker | Пользователь 8136591146 попытался сделать рассылку логов
+2025-05-15 15:39:47,761 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:39:47,761 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:40:37,547 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:40:38,182 | INFO | study_tracker | Пользователь 1082648849 установил цель 10ч по тгбот до 2025-06-01
+2025-05-15 15:40:46,424 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:40:46,425 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:47:56,095 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-15 15:48:04,802 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:48:04,802 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:49:03,308 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:49:03,309 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:50:25,829 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:50:26,708 | INFO | study_tracker | Пользователь 1082648849 установил цель 1000ч по тгбот до 2025-06-01
+2025-05-15 15:50:30,161 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:50:30,161 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:54:11,216 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:54:11,820 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 15:54:11,891 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:54:11,891 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:54:27,721 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:54:27,989 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 15:54:31,595 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:54:31,596 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:55:47,762 | ERROR | study_tracker | (set_goal) Произошла ошибка в goals: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO goals (user_telegram_id, category, target, deadline, date) VALUES (?, ?, ?, ?, ?)]
+2025-05-15 15:55:48,210 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 15:56:02,774 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:56:02,774 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:56:35,181 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:56:35,181 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:57:32,850 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:57:32,851 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:57:35,972 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:57:36,412 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 15:57:41,615 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:57:41,616 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:58:26,558 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:58:26,558 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:58:31,182 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 15:58:31,402 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 15:58:36,526 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 15:58:36,526 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 15:59:59,023 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-15 16:00:06,060 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 16:00:06,068 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 16:40:02,490 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 16:40:02,922 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-05-15
+2025-05-15 16:40:21,426 | INFO | study_tracker | Дедлайн отправлен пользователю 1082648849
+2025-05-15 16:40:51,640 | INFO | study_tracker | Дедлайн отправлен пользователю 1082648849
+2025-05-15 18:11:50,212 | INFO | study_tracker | Дедлайн отправлен пользователю 1082648849
+2025-05-15 18:11:50,553 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:11:50,557 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:11:58,919 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:11:58,921 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:12:56,758 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:12:56,774 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:14:24,419 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:14:24,423 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:14:47,861 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 18:14:48,022 | INFO | study_tracker | Пользователь 1082648849 установил цель 10ч по математика до 2025-05-16
+2025-05-15 18:14:51,379 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:14:51,382 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:14:51,385 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: list index out of range
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 77, in profile
+    done = hours[3]
+           ~~~~~^^^
+IndexError: list index out of range
+2025-05-15 18:16:22,608 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:16:22,619 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:16:22,625 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: list index out of range
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 78, in profile
+    done = hours[3]
+           ~~~~~^^^
+IndexError: list index out of range
+2025-05-15 18:17:09,561 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:17:09,571 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:17:09,575 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: list index out of range
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 78, in profile
+    done = hours[3]
+           ~~~~~^^^
+IndexError: list index out of range
+2025-05-15 18:18:22,140 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:18:22,146 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:20:24,484 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add математика 1
+2025-05-15 18:20:24,484 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: invalid literal for int() with base 10: 'математика'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 14, in add
+    if int(colvo_chasov) <= 12:
+       ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'математика'
+2025-05-15 18:20:59,950 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 математика
+2025-05-15 18:20:59,959 | INFO | study_tracker | Добавлены часы: 1 | Категория: математика | ID: 1082648849
+2025-05-15 18:21:03,388 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:21:03,390 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:22:21,450 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 18:22:21,450 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 18:22:53,978 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 18:22:53,980 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 18:23:00,372 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:23:00,380 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:24:01,617 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:24:01,620 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:25:31,551 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 18:25:31,552 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 18:26:57,006 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:26:57,009 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:27:46,643 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:27:46,645 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:28:45,020 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:28:45,024 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:31:13,096 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:31:13,100 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:32:26,270 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:32:26,275 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:37:21,963 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 18:37:21,968 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 18:37:21,971 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: list indices must be integers or slices, not Row
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 79, in profile
+    done = hours[i][3]
+           ~~~~~^^^
+TypeError: list indices must be integers or slices, not Row
+2025-05-15 19:13:41,962 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:13:41,975 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:13:41,977 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: list indices must be integers or slices, not Row
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 79, in profile
+    done = hours[3]
+           ~~~~~^^^
+TypeError: list indices must be integers or slices, not Row
+2025-05-15 19:13:57,072 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:13:57,085 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:17:00,374 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:17:00,378 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:17:59,655 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:17:59,671 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:17:59,676 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:18:30,159 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:18:30,162 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:18:30,164 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:20:57,362 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:20:57,366 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:20:57,368 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: 'list' object has no attribute 'colvo_chasov'
+2025-05-15 19:22:05,897 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:22:05,907 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:22:05,915 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: unsupported operand type(s) for /: 'Row' and 'int'
+2025-05-15 19:22:25,971 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:22:25,976 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:23:07,727 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 19:23:07,910 | INFO | study_tracker | Пользователь 1082648849 установил цель 100ч по история до 2025-08-31
+2025-05-15 19:23:10,887 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:23:10,890 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:23:10,892 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:23:44,615 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:23:44,618 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:23:44,621 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:23:44,622 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: cannot access local variable 'n' where it is not associated with a value
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 91, in profile
+    n += 1
+    ^
+UnboundLocalError: cannot access local variable 'n' where it is not associated with a value
+2025-05-15 19:25:06,929 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:25:06,934 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:25:06,937 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:25:20,261 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 история
+2025-05-15 19:25:20,266 | INFO | study_tracker | Добавлены часы: 1 | Категория: история | ID: 1082648849
+2025-05-15 19:25:27,745 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:25:27,752 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:25:27,762 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:25:51,864 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:25:51,871 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:25:51,872 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:30:37,264 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:30:37,268 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:30:53,617 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 9 математика
+2025-05-15 19:30:53,625 | INFO | study_tracker | Добавлены часы: 9 | Категория: математика | ID: 1082648849
+2025-05-15 19:30:56,846 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:30:56,848 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:31:01,152 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:31:01,154 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:33:18,755 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:33:18,759 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:33:18,763 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: list index out of range
+2025-05-15 19:38:40,299 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:38:40,308 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:38:40,313 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: name 'done' is not defined
+2025-05-15 19:38:40,314 | ERROR | study_tracker | Произошла ошибка в отображении целей пользователя 1082648849: name 'done' is not defined
+2025-05-15 19:40:56,690 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:40:56,694 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:41:46,081 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 история
+2025-05-15 19:41:46,105 | INFO | study_tracker | Добавлены часы: 10 | Категория: история | ID: 1082648849
+2025-05-15 19:41:48,743 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:41:48,746 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:44:18,084 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:44:18,088 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:44:21,032 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:44:21,035 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:44:26,740 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:44:26,743 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:50:58,644 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:50:58,649 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:51:20,506 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 19:51:20,938 | INFO | study_tracker | Пользователь 1082648849 установил цель 8ч по математика до 2030-12-10
+2025-05-15 19:51:30,255 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:51:30,258 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:51:30,268 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_true_goal
+2025-05-15 19:51:50,527 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:51:50,529 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:52:54,099 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 19:52:54,099 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 19:53:17,219 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 19:53:17,415 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-06-01
+2025-05-15 19:53:22,740 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 19:53:22,740 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 19:53:25,583 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:53:25,586 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:53:38,136 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 математика
+2025-05-15 19:53:38,141 | INFO | study_tracker | Добавлены часы: 10 | Категория: математика | ID: 1082648849
+2025-05-15 19:53:38,524 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-15 19:53:44,775 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:53:44,778 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:53:44,786 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_true_goal
+2025-05-15 19:53:49,762 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:53:49,764 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:56:15,701 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-15 19:56:15,701 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-15 19:56:24,993 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-15 19:56:24,993 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-15 19:56:35,321 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 математика
+2025-05-15 19:56:35,446 | INFO | study_tracker | Добавлены часы: 10 | Категория: математика | ID: 1082648849
+2025-05-15 19:56:35,705 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-15 19:56:53,896 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-15 19:56:54,001 | INFO | study_tracker | Пользователь 1082648849 установил цель 10ч по математика до 2025-06-01
+2025-05-15 19:56:57,638 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-15 19:56:57,640 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-15 19:56:57,651 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_true_goal
+2025-05-16 15:02:59,654 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-16 15:02:59,655 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-16 15:03:14,371 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:03:14,374 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-16 15:03:25,522 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-16 15:04:09,517 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 2 тгбот
+2025-05-16 15:04:09,525 | INFO | study_tracker | Добавлены часы: 2 | Категория: тгбот | ID: 1082648849
+2025-05-16 15:04:09,883 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_step
+2025-05-16 15:04:26,758 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:04:26,760 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:05:17,319 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: time data 'дата' does not match format '%Y-%m-%d'
+2025-05-16 15:06:10,192 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 15:06:10,300 | INFO | study_tracker | Пользователь 1082648849 установил цель 1000ч по порно до 2025-06-01
+2025-05-16 15:07:59,283 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:07:59,301 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:08:28,892 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-16 15:08:28,894 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-16 15:08:37,845 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-16 15:08:37,845 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-16 15:09:04,161 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 10 порно
+2025-05-16 15:09:04,168 | INFO | study_tracker | Добавлены часы: 10 | Категория: порно | ID: 1082648849
+2025-05-16 15:09:09,111 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:09:09,113 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:09:23,611 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:09:29,349 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-16 15:09:38,095 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 15:09:38,389 | INFO | study_tracker | Пользователь 1082648849 установил цель 20ч по математика до 2025-05-01
+2025-05-16 15:10:27,722 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:10:27,728 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:11:00,629 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 12 математика
+2025-05-16 15:11:00,635 | INFO | study_tracker | Добавлены часы: 12 | Категория: математика | ID: 1082648849
+2025-05-16 15:11:22,427 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 12 математика
+2025-05-16 15:11:22,431 | INFO | study_tracker | Добавлены часы: 12 | Категория: математика | ID: 1082648849
+2025-05-16 15:11:46,097 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:11:46,105 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:11:46,128 | INFO | study_tracker | Пользователь 1082648849 разблокировал достижение first_true_goal
+2025-05-16 15:11:55,180 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:11:55,183 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:12:26,036 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-16 15:12:26,038 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-16 15:12:34,953 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add n категория
+2025-05-16 15:12:34,954 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: invalid literal for int() with base 10: 'n'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 14, in add
+    if int(colvo_chasov) <= 12:
+       ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'n'
+2025-05-16 15:13:42,311 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats категория
+2025-05-16 15:13:42,316 | ERROR | study_tracker | Ошибка в команде /stats от 1082648849: 'Logger' object has no attribute 'сritical'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 71, in select_category
+    return categoryept[0][3]
+           ~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 17, in stats
+    spicok = users.select_category(category, mess.chat.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 73, in select_category
+    logger.сritical(f'(select_category)В базе данных users произошла ошибка: {e}', exc_info=True)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Logger' object has no attribute 'сritical'. Did you mean: 'critical'?
+2025-05-16 15:14:17,031 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 15:14:17,032 | ERROR | study_tracker | Ошибка в команде /setremind от 1082648849: invalid literal for int() with base 10: 'ЧЧ'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/remind.py", line 16, in set_napominashky
+    hour, minute = map(int, time_str.split(':'))
+    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'ЧЧ'
+2025-05-16 15:14:53,468 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:14:53,487 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:14:57,546 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-16 15:16:17,112 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-16 15:16:18,667 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-16 15:16:19,717 | INFO | study_tracker | Пользователь 1082648849 удалил все напоминания командой /unsetremind
+2025-05-16 15:16:27,869 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-16 15:29:27,410 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-16 15:29:27,411 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-16 15:29:29,813 | INFO | study_tracker | /help вызвана от пользователя 1082648849
+2025-05-16 15:29:34,547 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:29:36,377 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 15:29:36,377 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-16 15:29:37,336 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 15:29:37,337 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-16 15:37:43,591 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:42:55,039 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:43:38,858 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:43:53,631 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 15:49:34,359 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-16 15:49:34,361 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-16 15:50:18,042 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-16 15:50:18,042 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-16 15:50:55,664 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add
+2025-05-16 15:50:55,664 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add
+2025-05-16 15:51:09,248 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add n категория
+2025-05-16 15:51:09,249 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: invalid literal for int() with base 10: 'n'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 15, in add
+    if int(colvo_chasov) <= 12:
+       ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'n'
+2025-05-16 15:51:30,688 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add n категория
+2025-05-16 15:51:30,689 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: invalid literal for int() with base 10: 'n'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 15, in add
+    if int(colvo_chasov) <= 12:
+       ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'n'
+2025-05-16 15:53:23,580 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1
+2025-05-16 15:53:23,580 | WARNING | study_tracker | Неправильный формат команды /add от 1082648849: /add 1
+2025-05-16 15:53:27,602 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 gdafafd
+2025-05-16 15:53:27,606 | INFO | study_tracker | Добавлены часы: 1 | Категория: gdafafd | ID: 1082648849
+2025-05-16 15:53:36,204 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 14312
+2025-05-16 15:53:36,208 | INFO | study_tracker | Добавлены часы: 1 | Категория: 14312 | ID: 1082648849
+2025-05-16 15:58:27,899 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats
+2025-05-16 15:58:27,900 | WARNING | study_tracker | Неправильный формат команды /stats от 1082648849: /stats
+2025-05-16 15:58:36,771 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats 1
+2025-05-16 15:58:36,775 | ERROR | study_tracker | Ошибка в команде /stats от 1082648849: 'Logger' object has no attribute 'сritical'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 71, in select_category
+    return categoryept[0][3]
+           ~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 17, in stats
+    spicok = users.select_category(category, mess.chat.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 73, in select_category
+    logger.сritical(f'(select_category)В базе данных users произошла ошибка: {e}', exc_info=True)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Logger' object has no attribute 'сritical'. Did you mean: 'critical'?
+2025-05-16 15:59:03,222 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats 1
+2025-05-16 15:59:03,227 | ERROR | study_tracker | Ошибка в команде /stats от 1082648849: 'Logger' object has no attribute 'сritical'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 71, in select_category
+    return categoryept[0][3]
+           ~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 17, in stats
+    spicok = users.select_category(category, mess.chat.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/database/prokladka_db.py", line 73, in select_category
+    logger.сritical(f'(select_category)В базе данных users произошла ошибка: {e}', exc_info=True)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Logger' object has no attribute 'сritical'. Did you mean: 'critical'?
+2025-05-16 15:59:09,931 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 15:59:09,933 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 15:59:18,458 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats
+2025-05-16 15:59:18,459 | WARNING | study_tracker | Неправильный формат команды /stats от 1082648849: /stats
+2025-05-16 15:59:25,388 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-16 15:59:25,389 | ERROR | study_tracker | Ошибка в команде /stats от 1082648849: 'int' object is not iterable
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 22, in stats
+    for i in spicok:
+TypeError: 'int' object is not iterable
+2025-05-16 16:01:11,101 | INFO | study_tracker | /stats вызвана пользователем 1082648849: /stats тгбот
+2025-05-16 16:01:11,104 | ERROR | study_tracker | Ошибка в команде /stats от 1082648849: 'int' object is not iterable
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 22, in stats
+    for i in spicok:
+TypeError: 'int' object is not iterable
+2025-05-16 16:03:59,679 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 14312
+2025-05-16 16:03:59,680 | ERROR | study_tracker | Ошибка в команде /add от 1082648849: 
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/add.py", line 19, in add
+    raise Exception
+Exception
+2025-05-16 16:04:20,122 | INFO | study_tracker | /add вызвана пользователем 1082648849 с текстом: /add 1 [eq
+2025-05-16 16:04:20,129 | INFO | study_tracker | Добавлены часы: 1 | Категория: [eq | ID: 1082648849
+2025-05-16 16:10:59,321 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 16:10:59,323 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-16 16:11:14,686 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 16:11:14,687 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-16 16:12:53,424 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 16:12:53,425 | WARNING | study_tracker | Неправильно введена команда пользователем 1082648849: /setremind
+2025-05-16 16:12:58,501 | INFO | study_tracker | /setremind вызвана пользователем 1082648849
+2025-05-16 16:12:58,501 | ERROR | study_tracker | Ошибка в команде /setremind от 1082648849: invalid literal for int() with base 10: 'ЧЧ'
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/remind.py", line 17, in set_napominashky
+    hour, minute = map(int, time_str.split(':'))
+    ^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'ЧЧ'
+2025-05-16 16:22:00,052 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: list index out of range
+2025-05-16 16:22:14,401 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 16:22:14,572 | ERROR | study_tracker | Ошибка в установке цели у пользователя 1082648849: TeleBot.send_message() missing 1 required positional argument: 'text'
+2025-05-16 16:22:55,905 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 16:22:56,645 | INFO | study_tracker | Пользователь 1082648849 установил цель 300ч по категория до 2025-06-01
+2025-05-16 16:23:00,195 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 16:23:00,836 | INFO | study_tracker | Пользователь 1082648849 установил цель 300ч по категория до 2025-06-01
+2025-05-16 16:23:08,603 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:23:08,607 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:23:14,390 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 16:23:14,616 | INFO | study_tracker | Пользователь 1082648849 установил цель 600ч по категория до 2025-06-01
+2025-05-16 16:24:09,819 | INFO | study_tracker | Пользователь 1082648849 установил цель
+2025-05-16 16:24:09,819 | WARNING | study_tracker | 1082648849 установил цель больше 500 часов
+2025-05-16 16:31:13,710 | WARNING | study_tracker | 1082648849 установил цель больше 500 часов
+2025-05-16 16:31:57,813 | WARNING | study_tracker | 1082648849 сделал ошибку в установлении цели: Дедлайн должен быть не раньше завтрашнего дня!
+2025-05-16 16:36:29,097 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:36:29,101 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:36:29,713 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 126, in profile
+    bot.send_message(mess.chat.id, text, parse_mode=telegram.constants.ParseMode.HTML, reply_markup=markup)
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+2025-05-16 16:37:36,930 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:37:36,934 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:37:37,616 | ERROR | study_tracker | В команде профиль произошла ошибка пользователя 1082648849: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/profile.py", line 126, in profile
+    bot.send_message(mess.chat.id, text, reply_markup=markup, parse_mode=telegram.constants.ParseMode.HTML )
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+2025-05-16 16:39:28,621 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:39:28,638 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:44:16,790 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:44:16,802 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:44:21,326 | WARNING | study_tracker | Написан текст вместо команды ✅ Да, удалить, пользователем 1082648849
+2025-05-16 16:45:05,365 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:45:05,369 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:45:29,871 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:45:29,873 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:52:52,611 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:52:52,615 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 1082648849
+2025-05-16 16:53:02,573 | INFO | study_tracker | Пользователь 1082648849 удалил свой профиль
+2025-05-16 16:53:07,142 | INFO | study_tracker | Установленые первые достижения пользователя 1082648849
+2025-05-16 16:53:07,142 | INFO | study_tracker | /start вызвана от пользователя 1082648849
+2025-05-16 16:53:11,150 | INFO | study_tracker | /profile вызвана пользователем 1082648849
+2025-05-16 16:53:11,153 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-16 16:54:18,774 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-16 16:54:18,774 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-16 16:54:24,102 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 16:54:24,106 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-16 16:54:42,492 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 10 русский
+2025-05-16 16:54:42,497 | INFO | study_tracker | Добавлены часы: 10 | Категория: русский | ID: 8136591146
+2025-05-16 16:54:42,929 | INFO | study_tracker | Пользователь 8136591146 разблокировал достижение first_step
+2025-05-16 16:54:52,528 | INFO | study_tracker | /stats вызвана пользователем 8136591146: /stats русский
+2025-05-16 16:54:52,532 | ERROR | study_tracker | Ошибка в команде /stats от 8136591146: 'int' object is not iterable
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 22, in stats
+    for i in spicok:
+TypeError: 'int' object is not iterable
+2025-05-16 16:55:28,705 | INFO | study_tracker | /stats вызвана пользователем 8136591146: /stats русский
+2025-05-16 16:55:28,711 | ERROR | study_tracker | Ошибка в команде /stats от 8136591146: 'int' object is not iterable
+Traceback (most recent call last):
+  File "/Users/betoshii/PycharmProjects/yalubluarinu/study_bot/handlers/stats.py", line 22, in stats
+    for i in spicok:
+TypeError: 'int' object is not iterable
+2025-05-16 16:56:20,912 | INFO | study_tracker | /stats вызвана пользователем 8136591146: /stats русский
+2025-05-16 16:56:21,688 | INFO | study_tracker | /stats отработала успешно пользователем 8136591146
+2025-05-16 16:56:47,499 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 16:56:47,507 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 16:57:12,136 | WARNING | study_tracker | 8136591146 сделал ошибку в установлении цели: time data '2025-16-01' does not match format '%Y-%m-%d'
+2025-05-16 16:59:03,073 | INFO | study_tracker | Пользователь 8136591146 установил цель
+2025-05-16 16:59:03,472 | INFO | study_tracker | Пользователь 8136591146 установил цель 20ч по русский до 2025-06-01
+2025-05-16 16:59:12,627 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 16:59:12,632 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 16:59:22,465 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-16 16:59:22,465 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-16 16:59:27,380 | INFO | study_tracker | /help вызвана от пользователя 8136591146
+2025-05-16 16:59:31,686 | ERROR | study_tracker | Ошибка в установке цели у пользователя 8136591146: list index out of range
+2025-05-16 16:59:56,621 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 16:59:56,627 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 17:00:01,456 | INFO | study_tracker | /setremind вызвана пользователем 8136591146
+2025-05-16 17:00:01,457 | WARNING | study_tracker | Неправильно введена команда пользователем 8136591146: /setremind
+2025-05-16 17:00:12,323 | INFO | study_tracker | /setremind вызвана пользователем 8136591146
+2025-05-16 17:00:12,331 | INFO | study_tracker | /setremind сработала верно, у пользователя 8136591146 установлено напоминание на 17:01
+2025-05-16 17:00:29,357 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 11 русский
+2025-05-16 17:00:29,362 | INFO | study_tracker | Добавлены часы: 11 | Категория: русский | ID: 8136591146
+2025-05-16 17:00:37,178 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 17:00:37,181 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 17:00:37,188 | INFO | study_tracker | Пользователь 8136591146 разблокировал достижение first_true_goal
+2025-05-16 17:01:54,550 | INFO | study_tracker | Напоминание отправлено пользователю 8136591146
+2025-05-16 17:03:18,687 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 17:03:18,691 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 17:03:27,463 | INFO | study_tracker | Пользователь 8136591146 удалил свой профиль
+2025-05-16 17:03:29,671 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-16 17:03:29,671 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-16 17:03:47,324 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 1 хуйня
+2025-05-16 17:03:47,329 | INFO | study_tracker | Добавлены часы: 1 | Категория: хуйня | ID: 8136591146
+2025-05-16 17:03:47,442 | INFO | study_tracker | Пользователь 8136591146 разблокировал достижение first_step
+2025-05-16 17:04:38,872 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 17:04:38,877 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 17:04:43,245 | INFO | study_tracker | Пользователь 8136591146 удалил свой профиль
+2025-05-16 17:04:48,923 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 17:04:48,927 | INFO | study_tracker | /profile сработала верно, у пользователя {mess.chat.id} нет записей
+2025-05-16 17:04:58,955 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 1 хуйня
+2025-05-16 17:04:58,961 | INFO | study_tracker | Добавлены часы: 1 | Категория: хуйня | ID: 8136591146
+2025-05-16 17:04:59,079 | INFO | study_tracker | Пользователь 8136591146 разблокировал достижение first_step
+2025-05-16 17:06:18,952 | INFO | study_tracker | /profile вызвана пользователем 8136591146
+2025-05-16 17:06:18,956 | INFO | study_tracker | /profile сработала верно, вызвана пользователем 8136591146
+2025-05-16 17:06:23,270 | INFO | study_tracker | Пользователь 8136591146 удалил свой профиль
+2025-05-16 17:06:24,932 | INFO | study_tracker | Установленые первые достижения пользователя 8136591146
+2025-05-16 17:06:24,932 | INFO | study_tracker | /start вызвана от пользователя 8136591146
+2025-05-16 17:06:37,457 | INFO | study_tracker | /add вызвана пользователем 8136591146 с текстом: /add 1 категория
+2025-05-16 17:06:37,462 | INFO | study_tracker | Добавлены часы: 1 | Категория: категория | ID: 8136591146
+2025-05-16 17:06:37,597 | INFO | study_tracker | Пользователь 8136591146 разблокировал достижение first_step

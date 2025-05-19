@@ -40,7 +40,7 @@ def register_handlers(bot, users, achieve):
                     ids.append(i[1])
 
                 all_ids = set(ids)
-                bot.send_message(bot, all_ids, text)
+                send_message(bot, all_ids, text)
                 logger.info(f'Рассылка с текстом {text} пришла успешно')
             except Exception as e:
                 bot.send_message(mess.chat.id,'что то пошло не так')

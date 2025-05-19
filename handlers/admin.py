@@ -32,7 +32,7 @@ def register_handlers(bot, users, achieve):
     def broadcast(mess: Message):
         if int(mess.chat.id) == int(id):
             try:
-                xyinya = mess.text.split(' ')
+                xyinya = mess.text.split('$')
                 text = xyinya[1]
                 spicok = users.test_output()
                 ids = []

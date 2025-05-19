@@ -4,9 +4,9 @@ from telebot.types import Message
 import os
 import matplotlib.pyplot as plt
 from collections import defaultdict
-from study_bot.utils.logger import setup_logger
-from study_bot.utils.achievements import achievements, check_absolute, check_first_goal
-from study_bot.utils.streak import calculate_streak
+from utils.logger import setup_logger
+from utils.achievements import achievements, check_absolute, check_first_goal
+from utils.streak import calculate_streak
 
 logger = setup_logger()
 

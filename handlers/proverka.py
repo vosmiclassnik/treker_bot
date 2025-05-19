@@ -1,5 +1,5 @@
 from telebot.types import Message
-from study_bot.utils.logger import setup_logger
+from utils.logger import setup_logger
 logger = setup_logger()
 
 

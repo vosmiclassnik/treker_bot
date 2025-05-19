@@ -4,7 +4,7 @@ import threading
 import telegram.constants
 from telebot.types import Message
 import datetime
-from study_bot.utils.logger import setup_logger
+from utils.logger import setup_logger
 logger = setup_logger()
 
 

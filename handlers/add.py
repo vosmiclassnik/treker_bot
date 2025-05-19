@@ -1,8 +1,8 @@
 import telegram.constants
 from telebot.types import Message
 import datetime
-from study_bot.utils.logger import setup_logger
-from study_bot.utils.achievements import check_first_step, check_monday
+from utils.logger import setup_logger
+from utils.achievements import check_first_step, check_monday
 logger = setup_logger()
 def register_handlers(bot, users, achieve):
     @bot.message_handler(commands=['add'])

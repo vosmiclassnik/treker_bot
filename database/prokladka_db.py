@@ -1,7 +1,7 @@
 import datetime
 
 import sqlalchemy as db
-from study_bot.utils.logger import setup_logger
+from utils.logger import setup_logger
 
 logger = setup_logger()
 

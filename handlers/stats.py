@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib
 import telegram.constants
-from study_bot.utils.logger import setup_logger
+from utils.logger import setup_logger
 logger = setup_logger()
 
 

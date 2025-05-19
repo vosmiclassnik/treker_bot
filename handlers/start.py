@@ -1,7 +1,7 @@
 from telebot.types import Message
 import telegram.constants
-from study_bot.utils.logger import setup_logger
-from study_bot.utils.achievements import nachalo
+from utils.logger import setup_logger
+from utils.achievements import nachalo
 logger = setup_logger()
 def register_handlers(bot, users, rassilka, achieve, goals):
     @bot.message_handler(commands=['start'])

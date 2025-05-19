@@ -3,7 +3,7 @@ from telebot.types import Message
 import datetime
 import time
 import threading
-from study_bot.utils.logger import setup_logger
+from utils.logger import setup_logger
 logger = setup_logger()
 def register_handlers(bot, users, rassilka):
     # напоминания

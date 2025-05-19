@@ -1,10 +1,10 @@
 import telebot
 import matplotlib
-from study_bot.database.prokladka_db import database, rassilka, achieve, goals
+from database.prokladka_db import database, rassilka, achieve, goals
 from utils import achievements
 from config import api
 from handlers import add, start, stats, profile, remind, admin, goal, proverka
-from study_bot.utils import logger
+from utils import logger
 logger = logger.setup_logger()
 
 bot = telebot.TeleBot(api)

@@ -7,14 +7,13 @@ from utils.logger import setup_logger
 logger = setup_logger()
 def register_handlers(bot, users, rassilka):
     # напоминания
-    #пенис
+ 
     @bot.message_handler(commands=['setremind'])
     def set_napominashky(mess: Message):
         print(1)
         try:
-            #пеним
-            #safvjla'fbjvasf
-            print('penis')
+
+
             logger.info('Функция напоимнаний дорабатывается')
             bot.send_message(mess.chat.id, '🛠️ Эта функция сейчас в процессе доработки. Скоро всё будет готово — спасибо за терпение!')
             #logger.info(f'/setremind вызвана пользователем {mess.chat.id}')

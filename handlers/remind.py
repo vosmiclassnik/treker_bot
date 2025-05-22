@@ -7,10 +7,10 @@ from utils.logger import setup_logger
 logger = setup_logger()
 def register_handlers(bot, users, rassilka):
     # напоминания
- 
+
     @bot.message_handler(commands=['setremind'])
     def set_napominashky(mess: Message):
-        print(1)
+ 
         try:
 
 

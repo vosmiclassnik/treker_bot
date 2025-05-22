@@ -12,11 +12,16 @@ def register_handlers(bot, users, rassilka):
     def set_napominashky(mess: Message):
         print(1)
         try:
-            logger.info(f'/setremind вызвана пользователем {mess.chat.id}')
-            # беру время
-            from datetime import time
-            time_str = mess.text.split()[1]
-            hour, minute = map(int, time_str.split(':'))
+            #пеним
+            #safvjla'fbjvasf
+            print('penis')
+            logger.info('Функция напоимнаний дорабатывается')
+            bot.send_message(mess.chat.id, '🛠️ Эта функция сейчас в процессе доработки. Скоро всё будет готово — спасибо за терпение!')
+            #logger.info(f'/setremind вызвана пользователем {mess.chat.id}')
+        # беру время
+            #from datetime import time
+            #time_str = mess.text.split()[1]
+            #hour, minute = map(int, time_str.split(':'))
 
             #reminder_time = time(hour, minute)
 

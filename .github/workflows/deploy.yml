@@ -1,5 +1,6 @@
 name: 🚀 Deploy to Server
-
+- name: Start ssh-agent
+  run: eval "$(ssh-agent -s)"
 on:
   push:
     branches: [main]

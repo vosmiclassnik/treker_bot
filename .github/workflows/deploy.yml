@@ -1,13 +1,11 @@
-name: 🚀 Deploy to Server
-- name: Start ssh-agent
-  run: eval "$(ssh-agent -s)"
+name: Deploy to Server
+
 on:
   push:
     branches: [main]
 
 jobs:
   deploy:
-    name: Deploy via SSH
     runs-on: ubuntu-latest
 
     steps:
@@ -21,10 +19,11 @@ jobs:
 
     - name: Deploy to server
       run: |
-        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-          cd /root/study_bot
+        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << EOF
+          cd /root/study_bot || exit 1
           git pull
           source venv/bin/activate
           pip install -r requirements.txt
           sudo systemctl restart mybot
         EOF
+

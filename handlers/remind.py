@@ -7,8 +7,10 @@ from utils.logger import setup_logger
 logger = setup_logger()
 def register_handlers(bot, users, rassilka):
     # напоминания
+    #пенис
     @bot.message_handler(commands=['setremind'])
     def set_napominashky(mess: Message):
+        print(1)
         try:
             logger.info(f'/setremind вызвана пользователем {mess.chat.id}')
             # беру время
@@ -16,16 +18,16 @@ def register_handlers(bot, users, rassilka):
             time_str = mess.text.split()[1]
             hour, minute = map(int, time_str.split(':'))
 
-            reminder_time = time(hour, minute)
+            #reminder_time = time(hour, minute)
 
             # проверяю есть ли другие рассылки
-            old = rassilka.check_remind(mess.chat.id)
-            if old:
-                rassilka.delete_user(mess.chat.id)
+            #old = rassilka.check_remind(mess.chat.id)
+            #if old:
+                #rassilka.delete_user_rassilka(mess.chat.id)
 
-            rassilka.set_remind(mess.chat.id, reminder_time)
-            logger.info(f'/setremind сработала верно, у пользователя {mess.chat.id} установлено напоминание на {hour:02d}:{minute:02d}')
-            bot.send_message(mess.chat.id, f'✅ Напоминание установлено на {hour:02d}:{minute:02d}')
+            #rassilka.set_remind(mess.chat.id, reminder_time)
+            #logger.info(f'/setremind сработала верно, у пользователя {mess.chat.id} установлено напоминание на {hour:02d}:{minute:02d}')
+            #bot.send_message(mess.chat.id, f'✅ Напоминание установлено на {hour:02d}:{minute:02d}')
         except IndexError:
             logger.warning(f'Неправильно введена команда пользователем {mess.chat.id}: {mess.text}')
             bot.send_message(mess.chat.id, '❗ Используй формат: <code>/setremind ЧЧ:ММ</code> (например: <code>/setremind 18:30</code>)', parse_mode=telegram.constants.ParseMode.HTML)

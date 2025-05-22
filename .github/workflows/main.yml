@@ -1,0 +1,2 @@
+- name: Проверка значения
+  run: echo "${{ secrets.SSH_HOST }}"
